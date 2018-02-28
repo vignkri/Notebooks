@@ -1,3 +1,3 @@
-# Experiments with Stuff
+# Experiments / Doodles
 
-Collection of notebooks where I experiment with various different things.
+1. Blog: Notebooks which has something to me blog which is on http://vigne.sh
