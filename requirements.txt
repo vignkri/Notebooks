@@ -1,4 +1,5 @@
 altair==2.2.2
+attrs==19.1.0
 backcall==0.1.0
 bleach==2.1.4
 blis==0.2.4
@@ -13,8 +14,6 @@ dask==1.2.2
 decorator==4.3.0
 defusedxml==0.5.0
 distributed==1.28.1
-en-core-web-lg==2.1.0
-en-core-web-sm==2.1.0
 entrypoints==0.2.3
 fbprophet==0.3.post2
 filterpy==1.4.5
@@ -31,14 +30,15 @@ ipywidgets==7.4.2
 jedi==0.12.1
 Jinja2==2.10
 joblib==0.12.4
-jsonschema==2.6.0
+json5==0.8.5
+jsonschema==3.0.1
 jupyter==1.0.0
 jupyter-client==5.2.3
 jupyter-console==6.0.0
 jupyter-core==4.4.0
-jupyterlab==0.35.4
+jupyterlab==1.0.4
 jupyterlab-launcher==0.13.1
-jupyterlab-server==0.2.0
+jupyterlab-server==1.0.0
 kiwisolver==1.0.1
 MarkupSafe==1.0
 matplotlib==2.2.3
@@ -69,6 +69,7 @@ pyarrow==0.14.0
 Pygments==2.2.0
 pymc3==3.5
 pyparsing==2.2.0
+pyrsistent==0.15.4
 pystan==2.18.0.0
 python-dateutil==2.7.3
 pytz==2018.5
