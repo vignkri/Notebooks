@@ -1,4 +1,5 @@
 altair==2.2.2
+appdirs==1.4.4
 argcomplete==1.10.0
 arrow==0.15.2
 attrs==19.1.0
@@ -70,11 +71,13 @@ murmurhash==1.0.2
 nbconvert==5.4.0
 nbformat==4.4.0
 networkx==2.3
+nose==1.3.7
 notebook==6.0.3
 numba==0.46.0
 numpy==1.18.1
 olefile==0.46
 opencv-python==4.1.1.26
+packaging==20.4
 pandas==1.0.1
 pandocfilters==1.4.2
 parso==0.3.1
@@ -85,6 +88,7 @@ pexpect==4.6.0
 pickleshare==0.7.4
 Pillow==6.2.1
 plac==0.9.6
+ply==3.11
 pomegranate==0.11.0
 poyo==0.5.0
 preshed==2.0.1
@@ -96,6 +100,7 @@ pyarrow==0.14.0
 pycryptodome==3.9.7
 Pygments==2.2.0
 pymc3==3.5
+Pyomo==5.7
 pyparsing==2.2.0
 PyPDF4==1.27.0
 pyrsistent==0.15.4
@@ -103,6 +108,7 @@ pystan==2.18.0.0
 python-dateutil==2.7.3
 python-pptx==0.6.18
 pytz==2018.5
+PyUtilib==6.0.0
 PyYAML==5.1
 pyzmq==17.1.2
 qtconsole==4.4.3
@@ -146,4 +152,5 @@ whichcraft==0.6.1
 widgetsnbextension==3.4.2
 xlrd==1.2.0
 XlsxWriter==1.2.9
+yellowbrick==1.1
 zict==0.1.4
