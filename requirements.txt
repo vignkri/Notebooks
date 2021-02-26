@@ -14,10 +14,12 @@ cycler==0.10.0
 decorator==4.4.2
 defusedxml==0.6.0
 entrypoints==0.3
+et-xmlfile==1.0.1
 idna==2.10
 ipykernel==5.5.0
 ipython==7.20.0
 ipython-genutils==0.2.0
+jdcal==1.4.1
 jedi==0.18.0
 Jinja2==2.11.3
 joblib==1.0.1
@@ -41,6 +43,7 @@ nbformat==5.1.2
 nest-asyncio==1.5.1
 notebook==6.2.0
 numpy==1.20.1
+openpyxl==3.0.6
 packaging==20.9
 pandas==1.2.2
 pandocfilters==1.4.3
@@ -76,3 +79,4 @@ traitlets==5.0.5
 urllib3==1.26.3
 wcwidth==0.2.5
 webencodings==0.5.1
+xlrd==2.0.1
