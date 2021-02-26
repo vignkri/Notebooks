@@ -3,3 +3,6 @@
 
 # Folders
 .venv/
+
+# Internal folders
+playground/
