@@ -16,6 +16,9 @@ drawing_spec = mp_drawing.DrawingSpec(thickness=1, circle_radius=1)
 # Generate hand processing toolset
 mp_hands = mp.solutions.hands
 
+# Add pose detection
+mp_pose = mp.solutions.pose
+
 
 if __name__=="__main__":
     cv2.namedWindow("preview")
@@ -23,6 +26,7 @@ if __name__=="__main__":
     # Capture the video
     vc = cv2.VideoCapture(0) # This is the 0th position
     
+    poser = mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5)
     face_mesh = mp_face_mesh.FaceMesh(max_num_faces=1, refine_landmarks=True,
         min_detection_confidence=0.5, min_tracking_confidence=0.5)
     hand_processor = mp_hands.Hands(model_complexity=1, min_detection_confidence=0.5,
@@ -42,6 +46,13 @@ if __name__=="__main__":
         # Process images
         face_mesh_results = face_mesh.process(image)
         hand_processor_results = hand_processor.process(image)
+        pose_results = poser.process(image)
+
+        mp_drawing.draw_landmarks(
+            image,
+            pose_results.pose_landmarks,
+            mp_pose.POSE_CONNECTIONS,
+            landmark_drawing_spec=mp_drawing_styles.get_default_pose_landmarks_style())
 
         if face_mesh_results.multi_face_landmarks:
             for face_landmarks in face_mesh_results.multi_face_landmarks:
